@@ -44,7 +44,6 @@ const Home = () => (
             </div>
           </Col>
         </Row>
-        <Button color="danger">Danger</Button>
       </Container>
       <h1>I am Home page</h1>
     </div>
