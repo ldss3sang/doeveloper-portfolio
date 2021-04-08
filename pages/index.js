@@ -16,7 +16,7 @@ const Home = () => (
                   <div className="hero-section-content">
                     <h2></h2>
                     <div className="hero-section-content-intro">
-                      Have a look at my portfolio and job history
+                      Fullstack Developer
                     </div>
                   </div>
                   <img
