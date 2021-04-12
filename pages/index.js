@@ -1,6 +1,8 @@
+import ReactTyped from "react-typed";
 import { Container, Button, Row, Col } from "reactstrap";
 import BaseLayout from "../components/layouts/BaseLayout";
 
+const roles = ["Developer", ".Net", "JavaScript"];
 const Home = () => (
   <BaseLayout className="cover">
     <div className="main-section">
@@ -14,9 +16,9 @@ const Home = () => (
               <div className={`flipper`}>
                 <div className="back">
                   <div className="hero-section-content">
-                    <h2></h2>
+                    <h2>Fullstack Developer</h2>
                     <div className="hero-section-content-intro">
-                      Fullstack Developer
+                      JavaScript, C#, SQL
                     </div>
                   </div>
                   <img
@@ -39,13 +41,23 @@ const Home = () => (
                 years!
               </h1>
             </div>
+            <ReactTyped
+              loop
+              typeSpeed={70}
+              backSpeed={70}
+              strings={roles}
+              backDelay={1000}
+              loopCount={0}
+              showCursor
+              className="self-typed"
+              cursorChar="|"
+            />
             <div className="hero-welcome-bio">
               <h1>Let's take a look on my work.</h1>
             </div>
           </Col>
         </Row>
       </Container>
-      <h1>I am Home page</h1>
     </div>
   </BaseLayout>
 );
